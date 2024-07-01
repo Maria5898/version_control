@@ -38,4 +38,14 @@ git config core.sshCommand "ssh -i ~/.ssh/user-private-key -o IdentitiesOnly=yes
 
 Вот видео инструкция https://youtu.be/E8cIjbJMEpE
 
+## Работа с удаленными репозиториями
+
+### Подключение удаленного репозитория
+
+Чтобы подключить удаленный репозиторий, используйте команду:
+
+```bash
+git remote add origin <URL вашего репозитория>
+
+
 
